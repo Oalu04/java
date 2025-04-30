@@ -8,6 +8,8 @@ public class app {
 ```
 > A convenção de nomeação de classes, métodos e variáveis é feita em CamelCase 
 
+## Criação de um método
+
 Classes que serão executaveis precisam ter um *Método* especial denominado *Main* 
 
 ```java
