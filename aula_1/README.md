@@ -1,11 +1,28 @@
 # Anatomia de Classes   
 
 ## Criação de uma Classe 
-```
-public class MinhaClasse {
+```java
+public class app {
 
 }
 ```
-> A nomeação da classe deve ser feita em CamelCase 
+> A convenção de nomeação de classes, métodos e variáveis é feita em CamelCase 
 
-Classes que serão executaveis precisam ter um <span style="color: red;">Método</span> especial
+Classes que serão executaveis precisam ter um *Método* especial denominado *Main* 
+
+```java
+public class app {
+
+    public static void main (String [] args) {
+
+    }
+}
+
+```
+|Comandos|Significados|
+|---|---|
+|`void`|O método criado não retornará nada|
+|`main`|Nome do método|
+|`()`|Os parâmetros do método|
+
+> Métodos devem sempre estar dentro de uma classe 
