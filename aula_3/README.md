@@ -32,8 +32,7 @@ Dadas seus parâmetros o corpo do método irá realizar todo o processo que deci
 System.out.println(nomeCompleto(primeiroNome, segundoNome));
 ```
 >[!IMPORTANT]
->`Throw Exception`: Significa que o método ao ser utilizado poderá gerar uma exceção.
-
+>`Throw Exception`: Significa que o método ao ser utilizado poderá gerar uma exceção. <br><br>
 > Por exemplo, ao criarmos um método que dividirá dois números, o usuário por ventura pode pedir que dividamos um número por 0, caso que é impossível de ocorrer. Com isso é nosso dever criar uma contramedida para avisarmos ao nosso usuário que o comando requisitado não é possível ser concluido e se tratará de uma exceção. 
 
 
