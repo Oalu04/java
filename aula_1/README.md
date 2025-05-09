@@ -6,6 +6,9 @@ public class app {
 
 }
 ```
+
+> Em Java, uma classe é um modelo ou plano para criar objetos, definindo as suas características (atributos) e comportamentos (métodos). É como um molde que define como objetos de um certo tipo serão. 
+
 > A convenção de nomeação de classes, métodos e variáveis é feita em CamelCase 
 
 ## Criação de um método
