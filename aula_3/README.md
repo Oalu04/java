@@ -1,4 +1,4 @@
-#Utilização do Método 
+# Utilização do Método 
 Criamos um método com a [nomenclatura](https://github.com/Oalu04/java/blob/main/aula_1/README.md#anatomia-de-classes) necessária, definindo seu tipo de retorno, nome e seus parâmetros.
 
 >[!IMPORTANT]
@@ -12,7 +12,7 @@ public static double test (int num1, int num2) {
 ``` 
 Nesse caso o método irá receber 2 variáveis de tipo **inteiro**, e retornará um tipo **double**
 
-#Retornará para onde? 
+# Retornará para onde? 
 
 Ao finalizarmos a criação de um método precisamos que ela seja executada em nosso **método principal** que denominamos como **chamada de função**. 
 
