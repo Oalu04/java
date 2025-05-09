@@ -14,14 +14,14 @@ Nesse caso o método irá receber 2 variáveis de tipo **inteiro**, e retornará
 
 # Retornará para onde? 
 
-Ao finalizarmos a criação de um método precisamos que ela seja executada em nosso **método principal** que denominamos como **chamada de função**. 
+Ao finalizarmos a criação de um método precisamos que ela seja executada em nosso **método principal** que denominamos como **chamada de método**. 
 
 ```java
 public static void main (String [] args) {
 int nome completo = nomeCompleto(primeiroNome, segundoNome);
 }
 ```
-Para chamar uma função digitamos o nome da função e atribuimos os parametros que ela pede, nesse caso, duas variáveis do tipo Strings. 
+Para chamar um método digitamos o nome da função e atribuimos os parametros que ela pede, nesse caso, duas variáveis do tipo Strings. 
 
 Dadas seus parâmetros o corpo do método irá realizar todo o processo que decidimos e no final de tudo retornará o resultado para a variável **nome completo**.
  
@@ -31,6 +31,9 @@ Dadas seus parâmetros o corpo do método irá realizar todo o processo que deci
 ```java
 System.out.println(nomeCompleto(primeiroNome, segundoNome));
 ```
+>[!IMPORTANT]
+>`Throw Exception`: Significa que o método ao ser utilizado poderá gerar uma exceção.
 
+> Por exemplo, ao criarmos um método que dividirá dois números, o usuário por ventura pode pedir que dividamos um número por 0, caso que é impossível de ocorrer. Com isso é nosso dever criar uma contramedida para avisarmos ao nosso usuário que o comando requisitado não é possível ser concluido e se tratará de uma exceção. 
 
 
