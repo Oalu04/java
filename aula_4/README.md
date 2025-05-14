@@ -42,4 +42,8 @@ int subtração = 113 - 25;
 double media = (15 + 5) / 3; 
 ```
 
+## Lógicos 
+Representam o recurso que nos permite criar expressões lógicas maiores a partir da junção de duas ou mais expressões. 
 
+* `&&` Operador Lógico "E"
+* `||` Operador Lógico "OU"
