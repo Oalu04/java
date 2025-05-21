@@ -70,10 +70,12 @@ A linguagem java possui diversas classes que representam exceções que são org
 
 ![](<image (6).png>)
 
+### RuntimeException
 Uma `RuntimeException` é uma exceção que não é verificada pelo compilador. Em outras palavras, o compilador não obriga que o programador trate essa exceção. São geralmente exceções que ocorrem durante o tempo de execução do programa, devido a erros internos ou condições inesperadas que não podem ser detectadas no momento da compilação. 
 
 Em geral, as RuntimeExceptions indicam erros de programação, como erros de lógica, acesso a objetos nulos, erros de tipo ou limites de arrays, ou erros na manipulação de dados
 
+### Exception 
 Já uma `Exception`, denominada como **Checked exception** é uma exceção que o compilador verifica se foi tratada (com um bloco try-catch) ou declarada (usando o comando throws) pelo programador.
 
 Ou seja, o código que pode lançar essa exceção é obrigado a lidar com ela de alguma forma, para garantir que o programa seja robusto e não encontre problemas inesperados em tempo de execução. 
