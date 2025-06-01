@@ -79,3 +79,26 @@ Em geral, as RuntimeExceptions indicam erros de programação, como erros de ló
 Já uma `Exception`, denominada como **Checked exception** é uma exceção que o compilador verifica se foi tratada (com um bloco try-catch) ou declarada (usando o comando throws) pelo programador.
 
 Ou seja, o código que pode lançar essa exceção é obrigado a lidar com ela de alguma forma, para garantir que o programa seja robusto e não encontre problemas inesperados em tempo de execução. 
+
+### Exceções customizadas
+
+Nós podemos criar nossas próprias exceções baseadas em regras de negócio e assim melhor direcionar quem for utilizar os recursos desenvolvidos no projeto, exemplo:
+
+* Imagina que como regra de negócio, para formatar um cep necessita sempre de ter 8 dígitos, caso contrário lançará uma exceção que denominamos de **CepInvalidoException**.
+* Primeiro criamos nossa exceção:
+
+```java
+public class CepInvalidoException extends Exception {}
+```
+
+* Em seguida criamos nosso método de formatação de cep.
+
+```java
+static String formatarCep(String cep) throws CepInvalidoException{
+        if(cep.length() != 8)
+          throw new CepInvalidoException();
+        
+          //simulando um cep formatado
+          return "23.765-064";
+    }
+```
