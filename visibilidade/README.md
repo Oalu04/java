@@ -8,7 +8,6 @@ Este modificador de acesso define que a classe, atributo, etc só será visivel 
 
 ```java
 void x(){
-
 }
 ```
 O que antes usariamos public, agora que não definimos nenhum modificador ele será default.
