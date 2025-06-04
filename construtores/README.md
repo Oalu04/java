@@ -39,7 +39,6 @@ public class Pessoa {
 	// método construtor
 	// o nome deverá ser igual ao nome da classe
     // Não deve retornar nada
-    // deve receber parâmetros
 	public Pessoa (String cpf, String nome) {
 		this.cpf = cpf;
 		this.nome = nome;
