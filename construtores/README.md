@@ -47,7 +47,7 @@ public class Pessoa {
 }
 ```
 
-Feito isso alteraremos nosso código principal para que o objeto seja criado com os requerimentos que escolhemos? 
+Feito isso alteraremos nosso código principal para que o objeto seja criado com os requerimentos que escolhemos: 
 
 ```java 
 public class SistemaCadastro {
