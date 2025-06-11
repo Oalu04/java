@@ -61,5 +61,5 @@ public class SistemaCadastro {
 
 Os construtores servem primordialmente para garantir que na inicialização de um objeto nós ja informemos os atributos que julgamos como relevantes.
 
->[!ATTENTION]
+>[!WARNING]
 > Não é uma boa prática criarmos construtores para todos os atributos que desejamos armazenar no nosso objeto. Você deve selecionar qual tipo de dado é mais relevante para o objeto e assim usar um construtor. Por exemplo, o dado mais relevante para um objeto aluno, seria seu nome e matricula provavelmente, cabe você a julgar dependendo do que quer criar.
