@@ -42,6 +42,7 @@ public class Xerox implements Copiadora {
 
 E repetiremos esse processo para todos os nossos equipamentos e agora assim adicionaremos as características para a nossa classe Multifuncional: 
 
+Como essa classe está implementando as outras interfaces ela também precisa seguir seus contratos. 
 ```java
 
 package equipamento.multifuncional;
@@ -70,7 +71,6 @@ public class EquipamentoMultiFuncional implements Copiadora, Digitalizadora, Imp
 
 ```
 <br>
-Como essa classe está implementando as outras interfaces ela também precisa seguir seus contratos. 
 
 ```java
 package estabelecimento;
