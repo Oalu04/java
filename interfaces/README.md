@@ -40,7 +40,7 @@ public class Xerox implements Copiadora {
 
 ```
 
-E repetiremos esse processo para todos os nossos equipamentos e agora assim adicionaremos as características para a classe nossa classe Multifuncional: 
+E repetiremos esse processo para todos os nossos equipamentos e agora assim adicionaremos as características para a nossa classe Multifuncional: 
 
 ```java
 
