@@ -32,6 +32,6 @@ Em nossos exemplos anteriores nossa classe de serviço de mensagem também verif
 
 ## Mas como poderiamos fazer isso? 
 
-Caso você não se recorde direito sobre as visibilidades de recurso, se criarmos um método em nossa classe `ServicoMensagemInstantaena` que verifique a conexão com a internet de forma pública, nosso usuário teria acesso a esse tipo de funcionalidade e ele mesmo teria que fazer os testes toda vez que quisesse executar o programa, algo que não queremos que aconteca. Contudo, se o método for privado, as classes filhas não terão acesso à funcionalidade, já que esse modificador de acesso se extende somente para a própria classe. 
+Caso você não se recorde direito sobre as visibilidades de recurso, se criarmos um método em nossa classe `ServicoMensagemInstantaena` que verifique a conexão com a internet de forma pública, nosso usuário teria acesso a esse tipo de funcionalidade e ele mesmo teria que fazer os testes toda vez que quisesse executar o programa, algo que não queremos que aconteça. Contudo, se o método for privado, as classes filhas não terão acesso à funcionalidade, já que esse modificador de acesso se extende somente para a própria classe. 
 
-Para resolvermos isso utilizaremos o modificador **protected** na qual a visibilidade da classe se extenderá apenas para as classes que estão num mesmo pacote, subclasses ou se estiverem na mesma classe (que são o que a gente chamou de classes filhas).
+Para resolvermos isso utilizaremos o modificador **protected** na qual a visibilidade da classe se extenderá apenas para as classes que estão num mesmo pacote, subclasses (que são o que a gente chamou de classes filhas) ou se estiverem na mesma classe .
