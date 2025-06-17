@@ -11,7 +11,7 @@ public class EquipamentoMultiFuncional extends Copiadora, Impressora{
 
 ```
 
-Em nosso exemplo criamos uma copiadora uma digitalizadora e uma impressora e queremos que nossa classe principal tenha os atributos das duas, porém o java não aceita que fazemos desta forma. 
+Em nosso exemplo criamos uma copiadora uma digitalizadora e uma impressora e queremos que nossa classe principal tenha os atributos das duas, porém o java não aceita que façamos desta forma. 
 
 ![visualização de pacotes](Captura%20de%20tela%202025-06-12%20182335.png)
 
