@@ -4,7 +4,7 @@ Enum é um tipo de classe onde os objetos são previamente criados(eles ja exist
 Utilizamos enums quando nossa estrutura possui valores que não vão sofrer tantas alterações, pode ser o nome de uma pessoa ou estado, duas coisas que dificilmente são alteradas.
 
 >[!CAUTION]
-> Constantes não são a mesma coisa do que Enums
+> Constantes não são a mesma coisa do que Enums,
 Constantes são variáveis de tipo com valores imutáveis, já um Enum é um conjunto de objetos que serão pré-estabelecidos, possuindo todas as características de um objeto como atributos e métodos.
 
 Ex: 
