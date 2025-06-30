@@ -1,18 +1,16 @@
-## Getting Started
+# Records
+Introduziremos agora o conceito de records. Records são um tipo especial de classe criados para representar classes imutáveis que servem como "porta-dados" simplificando a criação de classes que armazenam informações.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+De inicio sua criação não é muito diferente de uma classe comum, com apenas a adição de um parênteses e possuindo outras características: 
 
-## Folder Structure
++ São imutáveis(os campos são `Final`).
++ Não podem estender outras classes(Mas podem implementar interfaces).
++ Não tem metodos set.
++ Os campos são automaticamente `pritave final`, com métodos de acesso (`get`) com o mesmo nome do campo.
 
-The workspace contains two folders by default, where:
+```java
+public record Person() {
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+}
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+```
