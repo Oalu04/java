@@ -26,7 +26,7 @@ public class ComputadorPedrinho {
 ```
 
 # Modificador Protected 
-Este é um modificador de visibilidade de acesso que não abordamos na etapa de [visibilidade](https://github.com/Oalu04/java/tree/main/visibilidade) pois ele é associado com o pilar de herança, então decidir comentar sobre ele depois de trazer o pilar. 
+Este é um modificador de visibilidade de acesso que não abordamos na etapa de [visibilidade](https://github.com/Oalu04/java/tree/main/visibilidade) pois ele é associado com o pilar de herança, então decidi comentar sobre ele depois de trazer o pilar. 
 
 Em nossos exemplos anteriores nossa classe de serviço de mensagem também verificava a conexão com a internet e agora queremos que as classes filhas também desfrutem dessa funcionalidade. 
 

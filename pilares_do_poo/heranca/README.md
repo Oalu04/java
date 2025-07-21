@@ -1,6 +1,6 @@
 # Herança
 
-A proposta do segundo pilar do POO, herança, é propor uma reutilização de código e evitar códigos repetitivos. Ou seja, ao invés de termos 3 classes que fazem as mesmas funções e só trocam algumas palavras, podemos criar uma classe pai `ServicoMensagemInstantanea` que irá distribuir seus atributos para o que chamaos de classe filhos, que são outras classes que irão receber os atributos de uma classe pai. 
+A proposta do segundo pilar do POO, herança, é propor uma reutilização de código e evitar códigos repetitivos. Ou seja, ao invés de termos 3 classes que fazem as mesmas funções e só trocam algumas palavras, podemos criar uma classe pai `ServicoMensagemInstantanea` que irá distribuir seus atributos para o que chamamos de classe filhos, que são outras classes que irão receber os atributos de uma classe pai. 
 
 ```java 
 public class FacebookMessenger {
