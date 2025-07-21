@@ -19,7 +19,7 @@ Contudo, para nossa classe pai utilizar a propriedade final precisariamos descar
 public sealed abstract class Employee permits Manager, Salesman{}
 ```
 
-[!NOTE] 
+>[!NOTE] 
 > A propriedade `permits` só funciona para classes que são sealed, non-sealed ou final.
 
 ```java
