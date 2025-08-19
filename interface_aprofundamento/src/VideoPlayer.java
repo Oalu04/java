@@ -1,4 +1,4 @@
-public  interface VideoPlayer extends MusicPlayer {  
+public interface VideoPlayer {  
     void playVideo();
 
     void pauseVideo();

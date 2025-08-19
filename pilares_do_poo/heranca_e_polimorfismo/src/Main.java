@@ -4,13 +4,9 @@ import domain.Salesman;
 
 public class Main {
     public static void main(String[] args) throws Exception {
-
-        Employee manager = new Manager();
         printEmployee(new Manager());
         printEmployee(new Salesman());
-
-
-        
+  
     }
 
     static void printEmployee(Employee employee) {

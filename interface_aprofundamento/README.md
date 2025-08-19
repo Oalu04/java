@@ -28,8 +28,8 @@ public interface MusicPlayer {
 ```
 O mesmo pensamento serve para criarmos variáveis, elas sempre serão `Public`, `static` e `final`.
 
-
-
+Vamos agora criar 3 novas classe chamadas `Smartphone`, `Computer` que implementarão `MusicPlayer` e `VideoPlayer`
+e `MusicBox` que implementará MusicPlayer, ja que uma caixa de som não reproduz video.
 
 
 
