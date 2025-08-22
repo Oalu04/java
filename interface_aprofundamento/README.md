@@ -32,7 +32,45 @@ Vamos agora criar 3 novas classe chamadas `Smartphone`, `Computer` que implement
 e `MusicBox` que implementará MusicPlayer, ja que uma caixa de som não reproduz video.
 
 
+Caso quiséssemos transformar uma dessas classes em abstratas notem que classes que extenderiam de Smartphone ou computer precisariam implementar os métodos que definirmos em `Smartphone` e os métodos que definimos em `VideoPlayer` e `MusicPlayer`
 
+```java
+public abstract class Smartphone implements VideoPlayer, MusicPlayer {
+//Um método abstrato que definimos para a classe.
+    abstract void ligarCelular();
+
+ //Abaixo estão os métodos das interfaces;
+    public void pauseVideo() {
+    
+
+    }
+
+    public void playVideo() {
+        
+    }
+
+    public void stopVideo() {
+        
+
+    }
+
+    public void pauseMusic() {
+        
+
+    }
+
+    public void playMusic() {
+
+    }
+
+    public void stopMusic() {
+        
+
+    }
+
+}
+
+```
 
 
 

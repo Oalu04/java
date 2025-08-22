@@ -1,8 +1,6 @@
 public class Smartphone implements VideoPlayer, MusicPlayer {
-
     public void pauseVideo() {
         System.out.println("O Smartphone está pausando o video");
-
     }
 
     public void playVideo() {
